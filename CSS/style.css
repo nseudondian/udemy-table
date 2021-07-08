@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+caption{
+    font-size: 30px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+table{
+    height: 30vh;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+th, td{
+    border: 1px solid goldenrod;
+}
+th{
+    width: 20%;
+    height: 40px;
+}
+td{
+    text-align: center;
+}
+tfoot td{
+    font-weight: bolder;
+}
